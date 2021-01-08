@@ -1,0 +1,149 @@
+/* Imported styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+/* Roboto Condensed:700,Roboto:300,Quicksand:300 */
+/* End of imported styles */
+
+body{
+    margin: 0;
+    background: linear-gradient(to  left,blueviolet,teal);
+}
+
+/* Header */
+header{
+    background-color: white;
+    position: relative;
+    top: 0; 
+    padding: 20px 0;
+}
+
+header h1{
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    font-size: 40px;
+    margin: 20px 5%; 
+}
+
+/*Colors*/
+
+#colors div{
+    border: 1px solid white;
+    margin: 30px 5%;
+    background-color: white;
+    border-radius: 5px;
+}
+ 
+#colors div h2{
+    font-family: "Roboto";
+    font-weight: 300; 
+    font-size: 25px;
+    margin: 10px 5%;
+}
+
+#colors #container .color{
+    width: 250px;
+    max-width: 250px;
+    height: auto;
+    border-radius: 5px;
+    display: inline-block; 
+    text-align: center;
+}
+
+#colors #container .color div{
+    display: inline-block; 
+    padding: 4px;
+    border-radius: 2px;
+    font-family: "Quicksand";
+    font-weight: 300;
+}
+
+
+#colors #container #color1{background-color: #FFB997;}
+#colors #container #color2{background-color: #F67E7D;}
+#colors #container #color3{background-color: #843B62;}
+#colors #container #color4{background-color: #621940;}
+#colors #container #color5{background-color: #0B032D;}
+
+/* Fonts */
+
+#fonts div{
+    border: 1px solid white;
+    margin: 30px 5%;
+    background-color: white;
+    border-radius: 5px;
+}
+ 
+#fonts div h2{
+    font-family: "Roboto";
+    font-weight: 300; 
+    font-size: 25px;
+    margin: 10px 5%;
+}
+
+
+#fonts #container2 .fontbox{ 
+    border-left: 1px solid teal;
+    width: 300px;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 0px;
+}
+
+#fonts #container2 .fontbox div{
+    margin: 0 5%;
+    
+}
+
+#fonts #container2 #font1{font-family: "Roboto Condensed";}
+#fonts #container2 #font2{font-family: "Roboto";}
+#fonts #container2 #font3{font-family: "Quicksand";}
+
+
+/* Text Styles */
+#txtstyles div{
+    border: 1px solid white;
+    margin: 30px 5%;
+    background-color: white;
+    border-radius: 5px;
+}
+ 
+#txtstyles div h2{
+    font-family: "Roboto";
+    font-weight: 300; 
+    font-size: 25px;
+    margin: 10px 5%;
+}
+
+#txtstyles #container3 .txtstyle{ 
+    border-top: 1px solid blueviolet;
+    width: 300px;
+    display:   block;
+    font-size: 20px;
+    border-radius: 0px;
+}
+
+#txtstyles #container3 #txtstyle1{font-family: "Roboto Condensed";}
+#txtstyles #container3 #txtstyle2{font-family: "Roboto";}
+#txtstyles #container3 #txtstyle3{font-family: "Quicksand";}
+
+
+/* Footer */
+footer{ 
+    padding: 40px 5%;
+    background-color: white;
+    text-align: right;
+    font-family: 'Roboto Condensed';    
+    color: gray;
+}
+
+footer a{
+    text-decoration: none;
+    color: gray;
+}
+
+footer a:hover{
+    color: black;
+    transition: .4s;
+}
